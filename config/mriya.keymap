@@ -26,7 +26,7 @@
         compatible = "zmk,combos";
 
         wins {
-            bindings = <&kp LG(S)>;
+            bindings = <&kp LG(V)>;
             key-positions = <27 28 29>;
         };
 
