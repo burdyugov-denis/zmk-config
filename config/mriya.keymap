@@ -44,6 +44,16 @@
             bindings = <&kp LG(S)>;
             key-positions = <15 16 14>;
         };
+
+        minusexcel {
+            bindings = <&kp LC(MINUS)>;
+            key-positions = <1 2>;
+        };
+
+        minusgoogkle {
+            bindings = <&kp LA(LC(MINUS))>;
+            key-positions = <0 1>;
+        };
     };
 
     keymap {
