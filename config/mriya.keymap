@@ -14,7 +14,7 @@
 #define ADJ 3
 
 &lt {
-    quick_tap_ms = <200>;
+    quick_tap_ms = <190>;
 };
 
 &mt {
@@ -26,7 +26,7 @@
         compatible = "zmk,combos";
 
         wins {
-            bindings = <&kp LG(V)>;
+            bindings = <&kp RG(V)>;
             key-positions = <27 28 29>;
         };
 
