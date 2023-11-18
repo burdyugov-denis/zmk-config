@@ -29,6 +29,21 @@
             bindings = <&kp LG(S)>;
             key-positions = <27 28 29>;
         };
+
+        firefox {
+            bindings = <&kp LS(LA(LC(NUMBER_1)))>;
+            key-positions = <15 16 17>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <4 17>;
+        };
+
+        winss {
+            bindings = <&kp LG(S)>;
+            key-positions = <15 16 14>;
+        };
     };
 
     keymap {
