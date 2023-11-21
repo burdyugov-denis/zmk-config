@@ -76,7 +76,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DOT";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp LS(SLASH)>;
+            bindings = <&kp DOT>, <&kp LS(PERIOD)>;
+
+            tapping-term-ms = <150>;
         };
     };
 
