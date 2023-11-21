@@ -76,7 +76,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DOT";
             #binding-cells = <0>;
-            bindings = <&kp SLASH>, <&kp LS(SLASH)>;
+            bindings = <&kp DOT>, <&kp LS(SLASH)>;
         };
     };
 
