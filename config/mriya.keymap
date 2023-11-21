@@ -59,6 +59,16 @@
             bindings = <&kp SPACE>;
             key-positions = <3 5>;
         };
+
+        UPUI {
+            bindings = <&kp LS(LC(UP_ARROW))>;
+            key-positions = <2 4>;
+        };
+
+        DOWNU {
+            bindings = <&kp LS(LC(DOWN_ARROW))>;
+            key-positions = <14 16>;
+        };
     };
 
     keymap {
