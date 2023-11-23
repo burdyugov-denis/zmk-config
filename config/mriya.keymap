@@ -69,6 +69,11 @@
             bindings = <&kp LS(LC(DOWN_ARROW))>;
             key-positions = <14 16>;
         };
+
+        LAYERTABLE {
+            bindings = <&sl 3>;
+            key-positions = <36 37>;
+        };
     };
 
     behaviors {
