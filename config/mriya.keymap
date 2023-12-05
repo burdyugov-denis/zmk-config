@@ -78,12 +78,7 @@
         langswtich2: langswtich2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp LEFT_SHIFT>;
-
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT>;
             label = "LANGSWTICH2";
         };
     };
