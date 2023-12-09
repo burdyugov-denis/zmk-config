@@ -83,7 +83,8 @@
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp LEFT_SHIFT>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_ALT>;
 
             label = "LANGSWTICH2";
         };
